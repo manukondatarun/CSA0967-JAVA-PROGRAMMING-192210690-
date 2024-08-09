@@ -1,0 +1,14 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        String a="Tarun";
+        String n=a.toUpperCase();
+        int m=n.length();
+        for(char i='A';i<='Z';i++){
+            for(int j=0;j<m;j++){
+                if(i==n.charAt(j)){
+                System.out.print(i); 
+                }
+                }
+            }
+    }
+}
